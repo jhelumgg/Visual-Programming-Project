@@ -1,0 +1,245 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Project_X___Sorting_Algorithms
+{
+    public partial class SelectionSort : Form
+    {
+        private int[] arr = new int[10];
+        List<TextBox> textBoxes = new List<TextBox>();
+        List<List<TextBox>> lists = new List<List<TextBox>>();
+        List<TextBox> one = new List<TextBox>();
+        List<TextBox> two = new List<TextBox>();
+        List<TextBox> three = new List<TextBox>();
+        List<TextBox> four = new List<TextBox>();
+        List<TextBox> five = new List<TextBox>();
+        List<TextBox> six = new List<TextBox>();
+        List<TextBox> seven = new List<TextBox>();
+        List<TextBox> eight = new List<TextBox>();
+        List<TextBox> nine = new List<TextBox>();
+        List<TextBox> ten = new List<TextBox>();
+        public SelectionSort()
+        {
+            InitializeComponent();
+            textBoxes = new List<TextBox>
+            {
+                textBox1,
+                textBox2,
+                textBox3,
+                textBox4,
+                textBox5,
+                textBox6,
+                textBox7,
+                textBox8,
+                textBox9,
+                textBox10
+            };
+            one = new List<TextBox>
+            {
+                textBox20,
+                textBox19,
+                textBox18,
+                textBox17,
+                textBox16,
+                textBox15,
+                textBox14,
+                textBox13,
+                textBox12,
+                textBox11
+            };
+            two = new List<TextBox>
+            {
+                textBox30,
+                textBox29,
+                textBox28,
+                textBox27,
+                textBox26,
+                textBox25,
+                textBox24,
+                textBox23,
+                textBox22,
+                textBox21
+            };
+            three = new List<TextBox>
+            {
+                textBox40,
+                textBox39,
+                textBox38,
+                textBox37,
+                textBox36,
+                textBox35,
+                textBox34,
+                textBox33,
+                textBox32,
+                textBox31
+            };
+            four = new List<TextBox>
+            {
+                textBox50,
+                textBox49,
+                textBox48,
+                textBox47,
+                textBox46,
+                textBox45,
+                textBox44,
+                textBox43,
+                textBox42,
+                textBox41
+            };
+            five = new List<TextBox>
+            {
+                textBox60,
+                textBox59,
+                textBox58,
+                textBox57,
+                textBox56,
+                textBox55,
+                textBox54,
+                textBox53,
+                textBox52,
+                textBox51
+            };
+            six = new List<TextBox>
+            {
+                textBox70,
+                textBox69,
+                textBox68,
+                textBox67,
+                textBox66,
+                textBox65,
+                textBox64,
+                textBox63,
+                textBox62,
+                textBox61
+            };
+            seven = new List<TextBox>
+            {
+                textBox80,
+                textBox79,
+                textBox78,
+                textBox77,
+                textBox76,
+                textBox75,
+                textBox74,
+                textBox73,
+                textBox72,
+                textBox71
+            };
+            eight = new List<TextBox>
+            {
+                textBox90,
+                textBox89,
+                textBox88,
+                textBox87,
+                textBox86,
+                textBox85,
+                textBox84,
+                textBox83,
+                textBox82,
+                textBox81
+            };
+            nine = new List<TextBox>
+            {
+                textBox100,
+                textBox99,
+                textBox98,
+                textBox97,
+                textBox96,
+                textBox95,
+                textBox94,
+                textBox93,
+                textBox92,
+                textBox91
+            };
+            ten = new List<TextBox>
+            {
+                textBox110,
+                textBox109,
+                textBox108,
+                textBox107,
+                textBox106,
+                textBox105,
+                textBox104,
+                textBox103,
+                textBox102,
+                textBox101
+            };
+            lists = new List<List<TextBox>>
+            {
+                one,
+                two,
+                three,
+                four,
+                five,
+                six,
+                seven,
+                eight,
+                nine,
+                ten
+            };
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                try
+                {
+                    arr[i] = int.Parse(textBoxes[i].Text);
+                }
+                catch (Exception)
+                {
+                    arr[i] = 0;
+                }
+            }
+            selection(arr);
+            for (int i = 0; i < 10; i++)
+                textBoxes[i].Text = arr[i].ToString();
+        }
+        private void selection(int[] arr)
+        {
+            int i, j, T, min;
+            for (i = 0; i < arr.Length; i++)
+            {
+                min = i;
+                for (j = i + 1; j < arr.Length; j++)
+                {
+                    if (arr[i] < arr[min])
+                    {
+                        min = j;
+                    }
+                }
+                T = arr[min];
+                arr[min] = arr[i];
+                arr[i] = T;
+                List<TextBox> temp = lists[i];
+                for (int x = 0; x < 10; x++)
+                    temp[x].Text = arr[x].ToString();
+            }
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu M = new Menu();
+            M.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 10; i++)
+                textBoxes[i].Text = "";
+        }
+
+        private void SelectionSort_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+    }
+}

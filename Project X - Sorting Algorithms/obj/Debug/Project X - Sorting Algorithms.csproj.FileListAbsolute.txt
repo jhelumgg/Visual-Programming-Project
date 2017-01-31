@@ -1,0 +1,14 @@
+c:\users\danish\documents\visual studio 2015\Projects\Project X - Sorting Algorithms\Project X - Sorting Algorithms\bin\Debug\Project X - Sorting Algorithms.exe.config
+c:\users\danish\documents\visual studio 2015\Projects\Project X - Sorting Algorithms\Project X - Sorting Algorithms\bin\Debug\Project X - Sorting Algorithms.exe
+c:\users\danish\documents\visual studio 2015\Projects\Project X - Sorting Algorithms\Project X - Sorting Algorithms\bin\Debug\Project X - Sorting Algorithms.pdb
+c:\users\danish\documents\visual studio 2015\Projects\Project X - Sorting Algorithms\Project X - Sorting Algorithms\obj\Debug\Project X - Sorting Algorithms.csprojResolveAssemblyReference.cache
+c:\users\danish\documents\visual studio 2015\Projects\Project X - Sorting Algorithms\Project X - Sorting Algorithms\obj\Debug\Project_X___Sorting_Algorithms.Menu.resources
+c:\users\danish\documents\visual studio 2015\Projects\Project X - Sorting Algorithms\Project X - Sorting Algorithms\obj\Debug\Project_X___Sorting_Algorithms.Properties.Resources.resources
+c:\users\danish\documents\visual studio 2015\Projects\Project X - Sorting Algorithms\Project X - Sorting Algorithms\obj\Debug\Project X - Sorting Algorithms.csproj.GenerateResource.Cache
+c:\users\danish\documents\visual studio 2015\Projects\Project X - Sorting Algorithms\Project X - Sorting Algorithms\obj\Debug\Project X - Sorting Algorithms.exe
+c:\users\danish\documents\visual studio 2015\Projects\Project X - Sorting Algorithms\Project X - Sorting Algorithms\obj\Debug\Project X - Sorting Algorithms.pdb
+C:\Users\Danish\documents\visual studio 2015\Projects\Project X - Sorting Algorithms\Project X - Sorting Algorithms\obj\Debug\Project_X___Sorting_Algorithms.SelectionSort.resources
+C:\Users\Danish\documents\visual studio 2015\Projects\Project X - Sorting Algorithms\Project X - Sorting Algorithms\obj\Debug\Project_X___Sorting_Algorithms.InsertionSort.resources
+C:\Users\Danish\documents\visual studio 2015\Projects\Project X - Sorting Algorithms\Project X - Sorting Algorithms\obj\Debug\Project_X___Sorting_Algorithms.QuickSort.resources
+C:\Users\Danish\documents\visual studio 2015\Projects\Project X - Sorting Algorithms\Project X - Sorting Algorithms\obj\Debug\Project_X___Sorting_Algorithms.BubbleSort.resources
+C:\Users\Danish\documents\visual studio 2015\Projects\Project X - Sorting Algorithms\Project X - Sorting Algorithms\obj\Debug\Project_X___Sorting_Algorithms.MergeSort.resources
